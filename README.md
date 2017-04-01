@@ -1,7 +1,7 @@
 # DataBindingAndRxjavaDemo
 
 一 Data Binding
-
+官方地址：
 https://developer.android.com/topic/libraries/data-binding/index.html?hl=zh-cn#build_environment
 1. android {
 
@@ -49,6 +49,7 @@ dataBinding {
 }
 
 5.很简单，很好用，特别是用在adapter上
+
 ListItemBinding binding = ListItemBinding.inflate(layoutInflater, viewGroup, false);
 //or
 ListItemBinding binding = DataBindingUtil.inflate(layoutInflater, R.layout.list_item, viewGroup, false);
