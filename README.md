@@ -1,5 +1,5 @@
 # DataBindingAndRxjavaDemo
-![image](https://github.com/Oslanka/DataBindingAndRxjavaDemo/blob/master/image1.png)
+![image](https://github.com/Oslanka/DataBindingAndRxjavaDemo/image1.png)
 一 Data Binding
 官方地址：
 https://developer.android.com/topic/libraries/data-binding/index.html?hl=zh-cn#build_environment
