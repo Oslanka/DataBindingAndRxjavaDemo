@@ -1,7 +1,7 @@
 # DataBindingAndRxjavaDemo
-
+![image](https://github.com/Oslanka/DataBindingAndRxjavaDemo/blob/master/image1.png)
 一 Data Binding
-
+官方地址：
 https://developer.android.com/topic/libraries/data-binding/index.html?hl=zh-cn#build_environment
 1. android {
 
@@ -11,15 +11,20 @@ dataBinding {
     }
 }
 
-2.<?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
-   <data>
-       <variable name="user" type="com.example.User"/>
-   </data>
-   <LinearLayout
-   </LinearLayout>
-</layout>
+2  《layout xmlns:android="http://schemas.android.com/apk/res/android">
+《data>
 
+《variable name="user" type="com.example.User"/>
+
+《data>
+
+   《LinearLayout 
+   
+   </LinearLayout>
+   
+ 《layout>。
+   
+   
 3.  ActivityMain2Binding binding = DataBindingUtil.setContentView(
                 this, R.layout.activity_main2);
         binding.setUser(user);
@@ -49,6 +54,7 @@ dataBinding {
 }
 
 5.很简单，很好用，特别是用在adapter上
+
 ListItemBinding binding = ListItemBinding.inflate(layoutInflater, viewGroup, false);
 //or
 ListItemBinding binding = DataBindingUtil.inflate(layoutInflater, R.layout.list_item, viewGroup, false);
