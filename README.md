@@ -13,10 +13,18 @@ dataBinding {
 
 2  《layout xmlns:android="http://schemas.android.com/apk/res/android">
 《data>
+
 《variable name="user" type="com.example.User"/>
+
 《data>
-   《LinearLayout </LinearLayout>
-   《layout>。
+
+   《LinearLayout 
+   
+   </LinearLayout>
+   
+ 《layout>。
+   
+   
 3.  ActivityMain2Binding binding = DataBindingUtil.setContentView(
                 this, R.layout.activity_main2);
         binding.setUser(user);
